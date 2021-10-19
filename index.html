@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <!-----sidebar navigation------->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="logo-designernews"></ion-icon></span>
+                        <span class="title">BAGNA DASH</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home"></ion-icon></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="information-circle"></ion-icon></span>
+                        <span class="title">Report</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="people"></ion-icon></span>
+                        <span class="title">Clients</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><ion-icon name="flag"></ion-icon></span>
+                        <span class="title">Orders</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-----main------->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+
+                <!--search bar--->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search"></ion-icon>
+                    </label>
+                </div>
+
+                <!--user Image-->
+                <div class="user">
+                    <img src="Head 2.png" alt="">
+                </div>
+            </div>
+        
+            <!--cards-->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,204</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="eye"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Sales</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="cart"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">290</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="chatbubbles"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <!--order details list-->
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent Orders</h2>
+                        <a href="" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Item</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$800</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Air conditioner</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Television</td>
+                                <td>$600</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>$800</td>
+                                <td>Paid</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Home Theater</td>
+                                <td>$500</td>
+                                <td>Unpaid</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Tesla</td>
+                                <td>$2000</td>
+                                <td>Paid</td>
+                                <td><span class="status inProgress">In Progress</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- New customers -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>Dave<br><span>Portugal</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>Filly<br><span>UK</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>Pewdewpie<br><span>Switzerland</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>DaBaby<br><span>USA</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>Sinkari<br><span>Ghana</span></h4></td>
+                        </tr>
+                        <tr>
+                            <td width="60px"><div class="imageBox"><img src="Head 2.png" alt=""></div></td>
+                            <td><h4>Sena<br><span>Finland</span></h4></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+</body>
+</html>
