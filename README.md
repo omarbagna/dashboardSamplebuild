@@ -6,4 +6,4 @@ A simple portal Dashboard. Fully responsive design
 ## [Live Preview](https://sample-dashboard-page.netlify.app/)
 
 
-![PREVIEW](/preview/AISiteDesktopHead.png)
+![PREVIEW](/preview/sample-dashboard.png)
